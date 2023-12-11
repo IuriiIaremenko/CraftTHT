@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		98537CE42B247248005C195F /* CraftTestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98537CE32B247248005C195F /* CraftTestTaskApp.swift */; };
-		98537CE62B247248005C195F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98537CE52B247248005C195F /* ContentView.swift */; };
 		98537CE82B247249005C195F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98537CE72B247249005C195F /* Assets.xcassets */; };
 		98537CEC2B247249005C195F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98537CEB2B247249005C195F /* Preview Assets.xcassets */; };
 		98537CF62B247249005C195F /* CraftTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98537CF52B247249005C195F /* CraftTestTaskTests.swift */; };
 		98537D002B247249005C195F /* CraftTestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98537CFF2B247249005C195F /* CraftTestTaskUITests.swift */; };
 		98537D022B247249005C195F /* CraftTestTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98537D012B247249005C195F /* CraftTestTaskUITestsLaunchTests.swift */; };
+		988015422B27143800BB3436 /* ProfileEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988015412B27143800BB3436 /* ProfileEditorView.swift */; };
+		988015452B2742EC00BB3436 /* AvatarFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988015442B2742EC00BB3436 /* AvatarFont.swift */; };
+		988015472B27430700BB3436 /* AvatarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988015462B27430700BB3436 /* AvatarStyle.swift */; };
+		988015492B27431700BB3436 /* AvatarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988015482B27431700BB3436 /* AvatarModel.swift */; };
+		9880154C2B276DA700BB3436 /* ImageProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9880154B2B276DA700BB3436 /* ImageProviderClient.swift */; };
+		98E811F02B249B7900A36E1E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E811EF2B249B7900A36E1E /* ProfileViewController.swift */; };
+		98E811F22B249FAE00A36E1E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E811F12B249FAE00A36E1E /* GradientView.swift */; };
+		98E811F42B24C02A00A36E1E /* FontSelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E811F32B24C02A00A36E1E /* FontSelectionButton.swift */; };
+		98E811F62B26237700A36E1E /* StyleSegmentPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E811F52B26237700A36E1E /* StyleSegmentPickerView.swift */; };
+		98E811F82B26239800A36E1E /* SegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E811F72B26239800A36E1E /* SegmentButton.swift */; };
+		98E811FA2B2623E400A36E1E /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E811F92B2623E400A36E1E /* AvatarView.swift */; };
+		98E811FC2B26240300A36E1E /* ImagePickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E811FB2B26240300A36E1E /* ImagePickerButton.swift */; };
+		98E811FE2B262B7700A36E1E /* ColorPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E811FD2B262B7700A36E1E /* ColorPickerButton.swift */; };
+		98E812002B263AC400A36E1E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E811FF2B263AC400A36E1E /* ProfileView.swift */; };
+		98E812022B2646E300A36E1E /* RecentlyUsedSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E812012B2646E300A36E1E /* RecentlyUsedSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		98537CE02B247248005C195F /* CraftTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraftTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98537CE32B247248005C195F /* CraftTestTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftTestTaskApp.swift; sourceTree = "<group>"; };
-		98537CE52B247248005C195F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98537CE72B247249005C195F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98537CE92B247249005C195F /* CraftTestTask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CraftTestTask.entitlements; sourceTree = "<group>"; };
 		98537CEB2B247249005C195F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +58,21 @@
 		98537CFB2B247249005C195F /* CraftTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraftTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98537CFF2B247249005C195F /* CraftTestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftTestTaskUITests.swift; sourceTree = "<group>"; };
 		98537D012B247249005C195F /* CraftTestTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftTestTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		988015412B27143800BB3436 /* ProfileEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditorView.swift; sourceTree = "<group>"; };
+		988015442B2742EC00BB3436 /* AvatarFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarFont.swift; sourceTree = "<group>"; };
+		988015462B27430700BB3436 /* AvatarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarStyle.swift; sourceTree = "<group>"; };
+		988015482B27431700BB3436 /* AvatarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarModel.swift; sourceTree = "<group>"; };
+		9880154B2B276DA700BB3436 /* ImageProviderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProviderClient.swift; sourceTree = "<group>"; };
+		98E811EF2B249B7900A36E1E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		98E811F12B249FAE00A36E1E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		98E811F32B24C02A00A36E1E /* FontSelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSelectionButton.swift; sourceTree = "<group>"; };
+		98E811F52B26237700A36E1E /* StyleSegmentPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSegmentPickerView.swift; sourceTree = "<group>"; };
+		98E811F72B26239800A36E1E /* SegmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentButton.swift; sourceTree = "<group>"; };
+		98E811F92B2623E400A36E1E /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		98E811FB2B26240300A36E1E /* ImagePickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerButton.swift; sourceTree = "<group>"; };
+		98E811FD2B262B7700A36E1E /* ColorPickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerButton.swift; sourceTree = "<group>"; };
+		98E811FF2B263AC400A36E1E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		98E812012B2646E300A36E1E /* RecentlyUsedSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyUsedSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +123,15 @@
 		98537CE22B247248005C195F /* CraftTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				98537CE32B247248005C195F /* CraftTestTaskApp.swift */,
-				98537CE52B247248005C195F /* ContentView.swift */,
-				98537CE72B247249005C195F /* Assets.xcassets */,
 				98537CE92B247249005C195F /* CraftTestTask.entitlements */,
+				98537CE32B247248005C195F /* CraftTestTaskApp.swift */,
+				98E811FF2B263AC400A36E1E /* ProfileView.swift */,
+				98E811EF2B249B7900A36E1E /* ProfileViewController.swift */,
+				9880154B2B276DA700BB3436 /* ImageProviderClient.swift */,
+				98537CE72B247249005C195F /* Assets.xcassets */,
+				988015432B2742E000BB3436 /* Model */,
 				98537CEA2B247249005C195F /* Preview Content */,
+				9880154A2B276CE800BB3436 /* UIComponents */,
 			);
 			path = CraftTestTask;
 			sourceTree = "<group>";
@@ -127,6 +159,32 @@
 				98537D012B247249005C195F /* CraftTestTaskUITestsLaunchTests.swift */,
 			);
 			path = CraftTestTaskUITests;
+			sourceTree = "<group>";
+		};
+		988015432B2742E000BB3436 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				988015442B2742EC00BB3436 /* AvatarFont.swift */,
+				988015462B27430700BB3436 /* AvatarStyle.swift */,
+				988015482B27431700BB3436 /* AvatarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9880154A2B276CE800BB3436 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				98E811F92B2623E400A36E1E /* AvatarView.swift */,
+				98E811FD2B262B7700A36E1E /* ColorPickerButton.swift */,
+				98E811F32B24C02A00A36E1E /* FontSelectionButton.swift */,
+				98E811F12B249FAE00A36E1E /* GradientView.swift */,
+				98E811FB2B26240300A36E1E /* ImagePickerButton.swift */,
+				988015412B27143800BB3436 /* ProfileEditorView.swift */,
+				98E812012B2646E300A36E1E /* RecentlyUsedSection.swift */,
+				98E811F72B26239800A36E1E /* SegmentButton.swift */,
+				98E811F52B26237700A36E1E /* StyleSegmentPickerView.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +317,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98537CE62B247248005C195F /* ContentView.swift in Sources */,
+				98E812022B2646E300A36E1E /* RecentlyUsedSection.swift in Sources */,
+				9880154C2B276DA700BB3436 /* ImageProviderClient.swift in Sources */,
+				98E812002B263AC400A36E1E /* ProfileView.swift in Sources */,
+				98E811F02B249B7900A36E1E /* ProfileViewController.swift in Sources */,
+				988015472B27430700BB3436 /* AvatarStyle.swift in Sources */,
+				98E811F42B24C02A00A36E1E /* FontSelectionButton.swift in Sources */,
+				98E811F82B26239800A36E1E /* SegmentButton.swift in Sources */,
+				988015422B27143800BB3436 /* ProfileEditorView.swift in Sources */,
+				98E811F22B249FAE00A36E1E /* GradientView.swift in Sources */,
+				98E811FA2B2623E400A36E1E /* AvatarView.swift in Sources */,
+				98E811F62B26237700A36E1E /* StyleSegmentPickerView.swift in Sources */,
+				98E811FC2B26240300A36E1E /* ImagePickerButton.swift in Sources */,
+				988015492B27431700BB3436 /* AvatarModel.swift in Sources */,
 				98537CE42B247248005C195F /* CraftTestTaskApp.swift in Sources */,
+				98E811FE2B262B7700A36E1E /* ColorPickerButton.swift in Sources */,
+				988015452B2742EC00BB3436 /* AvatarFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +514,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jurasic.craft.test.CraftTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,7 +553,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jurasic.craft.test.CraftTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
